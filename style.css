@@ -1,0 +1,298 @@
+*{
+    max-width: 80vw;
+    margin:auto;
+}
+@media screen and (min-width: 321px){
+    #button{
+	width: 10vw;
+	height: 2vw;
+	font-size: 1.5vw;
+	}
+	#upload{
+	width: 12vw;
+	height: 3vw;
+	font-size: 2vw;
+	}
+	.contactmobile{
+        display: none;
+    }
+    .contact address{
+        orphans: 3;
+        columns: 3;
+        padding: 10px;
+    }
+    .specs>ol{
+        orphans: 2;
+        columns: 2;
+    }
+    .specsmobile{
+        display: none;
+    }
+    .homeimage{
+        height: 115px;
+        background-image: url("https://64.media.tumblr.com/e35acbc619a5120f092cafafe379c553/c573545bd46d5869-93/s250x400/a05287d5ab663b42b3955671f0e978066a923360.jpg");
+    }
+    .phonetable caption{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: deepskyblue;
+        font-size: 33px;
+        font-family: Consolas;
+        color: darkred;
+    }
+    td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .phonetable td{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .phonetable input{
+        width: 10vw;
+    }
+    .phonetable label{
+        width: 10vw;
+    }
+    #tablecontent{
+        background: powderblue;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    #button{
+	width: 10vw;
+	height: 4vw;
+	font-size: 2vw;
+	}
+	#upload{
+	width: 12.5vw;
+	height: 3vw;
+	font-size: 1.5vw;
+	}
+	.contact{
+        display: none;
+    }
+    .specs{
+        display: none;
+    }
+    .homeimage{
+        height: 115px;
+        background-image: url("https://64.media.tumblr.com/e35acbc619a5120f092cafafe379c553/c573545bd46d5869-93/s250x400/a05287d5ab663b42b3955671f0e978066a923360.jpg");
+    }
+    .phonetable td{
+        padding: 5px;
+        font-size: 3vw;
+    }
+    .phonetable input{
+        width: 6vw;
+        height: 1.5vw;
+    }
+    .phonetable label{
+        width: 5vw;
+        font-size: 2.5vw;
+
+    }
+    .phonetable caption{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: deepskyblue;
+        font-size: 4vw;
+        font-family: Consolas;
+        color: darkred;
+    }
+    #tablecontent{
+        background: powderblue;
+        font-size: 2.5vw;
+    }
+
+}
+@media print {
+    .contact{
+        display: none;
+    }
+    #formrow{
+        display: none;
+    }
+    .contact address{
+        orphans: 3;
+        columns: 3;
+        padding: 10px;
+    }
+    .specs>ol{
+        orphans: 2;
+        columns: 2;
+    }
+    .specsmobile{
+        display: none;
+    }
+    .contact{
+        page-break-before:always;
+    }
+
+}
+
+::selection{
+    background-color: gold;
+}
+body {
+    background-image: url("https://64.media.tumblr.com/d86884c7ccdfe9ecb4d5b0491f215fdb/c573545bd46d5869-3a/s2048x3072/a454a8d4741309e4250bb996464a680ab1c2513e.jpg");
+    background-repeat: repeat;
+}
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-family: "Bookman Old Style";
+    color: darkred;
+}
+h2{
+    font-family: Consolas;
+    font-size: 33px;
+    color: darkred;
+    border-bottom: solid darkblue;
+
+}
+p{
+    padding-top: 10px;
+    font-size: 22px;
+
+}
+header {
+    background-color: deepskyblue;
+    padding-bottom: 5px;
+    border: 5px solid darkblue;
+    border-style: solid dashed;
+}
+
+nav{
+    columns: 2;
+    widows: 2;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: deepskyblue;
+
+}
+nav a{
+    color: darkred;
+    font-size: 20px;
+}
+
+.phonetable{
+    page-break-after: always;
+    page-break-before: always;
+}
+
+.phonetable table{
+    caption-side: top;
+    table-layout: fixed;
+    width: 100%;
+    border: 2px solid black;
+    border-spacing: 5px;
+    border-color: darkblue;
+}
+
+.phonetable img{
+    float: right;
+    width: 10vw;
+    height: 10vw;
+}
+.phonetable caption{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: deepskyblue;
+    font-size: 2.3vh;
+    font-family: Consolas;
+    color: darkred;
+}
+#tablecontent{
+    background: powderblue;
+    font-size: 1.8vh;
+}
+.phonetable td:hover{
+    background-color: burlywood;
+}
+
+.phonetable tr:nth-child(even){
+    color: darkred;
+    background-color: darkgray;
+}
+
+.phonetable tr:nth-child(odd){
+    color: darkred;
+    background-color: lightgray;
+}
+.phonetable td{
+    padding: 5px;
+    font-size: 1.8vh;
+}
+.phonetable input{
+    width: 10vw;
+}
+.phonetable label{
+    width: 10vw;
+}
+input:focus {
+    color: red;
+}
+
+.specs>ol{
+    list-style-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cea9642-06b9-4ba9-b4f0-8ad71e9e2e91/daauj9l-3ddc8955-467f-44b3-ad3d-2b4e519bb7a8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZjZWE5NjQyLTA2YjktNGJhOS1iNGYwLThhZDcxZTllMmU5MVwvZGFhdWo5bC0zZGRjODk1NS00NjdmLTQ0YjMtYWQzZC0yYjRlNTE5YmI3YTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9KU5FiWp6OhAVfHcinjn7OjJcJ5_jDTv-SN_Qy-ZV_Q");
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list{
+    text-decoration: underline solid black;
+    font-size: 22px;
+    color: red;
+}
+.list1{
+    list-style: circle;
+    list-style-position: outside;
+    font-size: 18px;
+    color: black;
+}
+.list2{
+    font-size: 15px;
+    color: black;
+}
+.list3{
+    list-style: circle inside;
+    font-size: 10px;
+    color: black;
+}
+span{
+    font-size: 22px;
+}
+#gsm:link{
+    color: blue;
+}
+#gsm:visited{
+    color: red;
+}
+#gsm:active{
+    color: yellow;
+}
+address dt{
+    font-size: 22px;
+    color:red;
+    padding: 10px;
+}
+address dd{
+    font-variant: small-caps;
+    text-indent: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
